@@ -107,10 +107,6 @@ export default function ProfilePage() {
             <span className="text-3xl font-bold">{stats?.totalWorkouts || 0}</span>
             <span className="text-sm text-muted-foreground">Workouts</span>
           </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold">{joinedChallenges.length}</span>
-            <span className="text-sm text-muted-foreground">Challenges</span>
-          </div>
         </div>
       </div>
 
