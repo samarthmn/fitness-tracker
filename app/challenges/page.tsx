@@ -199,9 +199,6 @@ export default function ChallengesPage() {
               <div className="text-center py-12">
                 <h3 className="text-lg font-medium">No challenges found</h3>
                 <p className="text-muted-foreground mt-1">Check back later for new challenges</p>
-                <div className="mt-4 flex justify-center gap-4">
-                  <Button onClick={handleInitialize}>Initialize Sample Data</Button>
-                </div>
               </div>
             )}
           </TabsContent>
